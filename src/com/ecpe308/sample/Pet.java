@@ -1,7 +1,7 @@
 package com.ecpe308.sample;
 public class Pet {
     private String name;
-    private String type;
+    private String species;
 
     public String getName() {
         return name;
@@ -9,11 +9,11 @@ public class Pet {
     public void setName(String name) {
         this.name = name;
     }
-    public String getType() {
-        return type;
+    public String getSpecies() {
+        return species;
     }
-    public void setType(String type) {
-        this.type = type;
+    public void setSpecies(String species) {
+        this.species = species;
     }
 }
 
